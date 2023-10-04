@@ -14,14 +14,14 @@ import image19 from './assets/Male (8).png';
 import image20 from './assets/Male (9).png';
 import image21 from './assets/Male (10).png';
 import image22 from './assets/Male (11).png';
-import image23 from './assets/Cricketers/1.jpg';
-import image23 from './assets/Cricketers/2.jpg';
-import image23 from './assets/Cricketers/3.jpg';
-import image23 from './assets/Cricketers/4.jpg';
-import image23 from './assets/Cricketers/5.jpg';
-import image23 from './assets/Cricketers/6.jpg';
-import image23 from './assets/Cricketers/7.jpg';
-import image23 from './assets/Cricketers/8.jpg';
+import image23 from './assets/1.jpg';
+import image24 from './assets/2.jpg';
+import image25 from './assets/3.jpg';
+import image26 from './assets/4.jpg';
+import image27 from './assets/5.jpg';
+import image28 from './assets/6.jpg';
+import image29 from './assets/7.jpg';
+import image30 from './assets/8.jpg';
 
 type SelectAvatarComponentProps = {
   setCount: React.Dispatch<React.SetStateAction<number>>;
@@ -55,12 +55,7 @@ const SelectAvatarComponent: React.FC<SelectAvatarComponentProps> = ({
 	image28,
 	image29,
 	image30,
-	image31,
-	image32,
-	image33,
-	image34,
-	image35,
-	
+		
   ];
   
   const handleClickGenerate = async () => {
